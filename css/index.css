@@ -1,0 +1,86 @@
+body{ /* Body Item*/
+    background-color: #F8ECD1;
+}
+.container{ /*Al web container*/
+    display: grid;
+    grid-template-columns: auto;
+}
+.menu{ /*Menu element*/
+    background-color: #85586F;
+    border: 1px solid #533846;
+    border-radius: 20px;
+    margin: initial;
+    margin-bottom: 5px;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.menuItem{ /* Menu items*/
+    padding: 10px;
+    text-align: center;
+}
+.menu-link{ /*Menu items link*/
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu-link:hover{ /*Menu link hover*/
+    color: #F8ECD1;
+    text-decoration: underline #F8ECD1 solid auto;
+}
+.content{ /* Main menu content*/
+    margin: 1px;
+    background-color: #85586F;
+    border: 1px solid #85586F;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 2px #533846 solid;
+    border-radius: 20px;
+}
+.contentitem{/* Content item*/
+    margin: 10%;
+    padding: auto;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F8ECD1;
+    
+}
+.contentimage{/* Content image*/
+    border: 2px solid #F8ECD1;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    border-radius: 20px;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+.contentimage:hover{ /* Content image hover*/
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+.footer{
+    margin: 1px;
+    background-color: #85586F;
+    border: 1px solid #533846;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: auto;
+}
+.footerItem{
+    text-align: center;
+    margin: 5px;
+    font-size: large;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F8ECD1;
+}
